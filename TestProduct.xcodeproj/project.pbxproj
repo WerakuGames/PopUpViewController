@@ -15,6 +15,12 @@
 		DCFCF9E11BB01D4D002E2896 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCFCF9E01BB01D4D002E2896 /* Images.xcassets */; };
 		DCFCF9E41BB01D4D002E2896 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCFCF9E21BB01D4D002E2896 /* LaunchScreen.xib */; };
 		DCFCF9F01BB01D4D002E2896 /* TestProductTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFCF9EF1BB01D4D002E2896 /* TestProductTests.m */; };
+		DCFCF9FE1BB01F2C002E2896 /* MMSPopUpBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFCF9FD1BB01F2C002E2896 /* MMSPopUpBackgroundView.m */; };
+		DCFCFA011BB02058002E2896 /* MMSPopUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFCFA001BB02058002E2896 /* MMSPopUpViewController.m */; };
+		DCFCFA051BB06771002E2896 /* MMSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFCFA031BB06771002E2896 /* MMSDetailViewController.m */; };
+		DCFCFA061BB06771002E2896 /* MMSDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCFCFA041BB06771002E2896 /* MMSDetailViewController.xib */; };
+		DCFCFA0F1BB0CE56002E2896 /* MMSCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFCFA0D1BB0CE56002E2896 /* MMSCustomViewController.m */; };
+		DCFCFA101BB0CE56002E2896 /* MMSCustomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCFCFA0E1BB0CE56002E2896 /* MMSCustomViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,16 @@
 		DCFCF9E91BB01D4D002E2896 /* TestProductTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProductTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFCF9EE1BB01D4D002E2896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCFCF9EF1BB01D4D002E2896 /* TestProductTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProductTests.m; sourceTree = "<group>"; };
+		DCFCF9FC1BB01F2C002E2896 /* MMSPopUpBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSPopUpBackgroundView.h; sourceTree = "<group>"; };
+		DCFCF9FD1BB01F2C002E2896 /* MMSPopUpBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSPopUpBackgroundView.m; sourceTree = "<group>"; };
+		DCFCF9FF1BB02058002E2896 /* MMSPopUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSPopUpViewController.h; sourceTree = "<group>"; };
+		DCFCFA001BB02058002E2896 /* MMSPopUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSPopUpViewController.m; sourceTree = "<group>"; };
+		DCFCFA021BB06771002E2896 /* MMSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSDetailViewController.h; sourceTree = "<group>"; };
+		DCFCFA031BB06771002E2896 /* MMSDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSDetailViewController.m; sourceTree = "<group>"; };
+		DCFCFA041BB06771002E2896 /* MMSDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMSDetailViewController.xib; sourceTree = "<group>"; };
+		DCFCFA0C1BB0CE56002E2896 /* MMSCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSCustomViewController.h; sourceTree = "<group>"; };
+		DCFCFA0D1BB0CE56002E2896 /* MMSCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSCustomViewController.m; sourceTree = "<group>"; };
+		DCFCFA0E1BB0CE56002E2896 /* MMSCustomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMSCustomViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +101,18 @@
 			children = (
 				DCFCF9D41BB01D4D002E2896 /* AppDelegate.h */,
 				DCFCF9D51BB01D4D002E2896 /* AppDelegate.m */,
+				DCFCFA021BB06771002E2896 /* MMSDetailViewController.h */,
+				DCFCFA031BB06771002E2896 /* MMSDetailViewController.m */,
+				DCFCFA041BB06771002E2896 /* MMSDetailViewController.xib */,
+				DCFCFA0C1BB0CE56002E2896 /* MMSCustomViewController.h */,
+				DCFCFA0D1BB0CE56002E2896 /* MMSCustomViewController.m */,
+				DCFCFA0E1BB0CE56002E2896 /* MMSCustomViewController.xib */,
 				DCFCF9DA1BB01D4D002E2896 /* ViewController.h */,
 				DCFCF9DB1BB01D4D002E2896 /* ViewController.m */,
+				DCFCF9FC1BB01F2C002E2896 /* MMSPopUpBackgroundView.h */,
+				DCFCF9FD1BB01F2C002E2896 /* MMSPopUpBackgroundView.m */,
+				DCFCF9FF1BB02058002E2896 /* MMSPopUpViewController.h */,
+				DCFCFA001BB02058002E2896 /* MMSPopUpViewController.m */,
 				DCFCF9DD1BB01D4D002E2896 /* Main.storyboard */,
 				DCFCF9E01BB01D4D002E2896 /* Images.xcassets */,
 				DCFCF9E21BB01D4D002E2896 /* LaunchScreen.xib */,
@@ -202,9 +228,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFCFA061BB06771002E2896 /* MMSDetailViewController.xib in Resources */,
 				DCFCF9DF1BB01D4D002E2896 /* Main.storyboard in Resources */,
 				DCFCF9E41BB01D4D002E2896 /* LaunchScreen.xib in Resources */,
 				DCFCF9E11BB01D4D002E2896 /* Images.xcassets in Resources */,
+				DCFCFA101BB0CE56002E2896 /* MMSCustomViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,10 +250,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFCFA051BB06771002E2896 /* MMSDetailViewController.m in Sources */,
 				DCFCF9D61BB01D4D002E2896 /* AppDelegate.m in Sources */,
+				DCFCFA011BB02058002E2896 /* MMSPopUpViewController.m in Sources */,
+				DCFCFA0F1BB0CE56002E2896 /* MMSCustomViewController.m in Sources */,
 				DCFCF9D91BB01D4D002E2896 /* TestProduct.xcdatamodeld in Sources */,
 				DCFCF9DC1BB01D4D002E2896 /* ViewController.m in Sources */,
 				DCFCF9D31BB01D4D002E2896 /* main.m in Sources */,
+				DCFCF9FE1BB01F2C002E2896 /* MMSPopUpBackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,16 +7,23 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "MMSDetailViewController.h"
+#import "MMSPopUpViewController.h"
+#import "MMSCustomViewController.h"
+@interface ViewController () <MMSCustomViewControllerDelegate>
 
 @end
 
 @implementation ViewController
-
+@synthesize testButton = _testButton;
+@synthesize customTestButton = _customTestButton;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void) viewDidAppear:(BOOL)animated{
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +31,22 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)touchButton:(id)sender{
+    UIButton *button = (UIButton *)sender;
+    int bTag = (int)button.tag;
+    if (bTag == 0) {
+        MMSDetailViewController *detailViewController = [[MMSDetailViewController alloc] initWithNibName:@"MMSDetailViewController" bundle:nil];
+        [self presentPopupViewController:detailViewController animationType:0];
+
+    }else{
+        MMSCustomViewController *detailViewController = [[MMSCustomViewController alloc] initWithNibName:@"MMSCustomViewController" bundle:nil];
+        [self presentPopupViewController:detailViewController animationType:0];
+
+    }
+}
+
+- (void)cancelButtonClicked:(MMSCustomViewController *)aMMSCustomViewController
+{
+    [self dismissPopupViewControllerWithanimationType:MMSPopupViewAnimationFade];
+}
 @end

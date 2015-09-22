@@ -9,7 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UIButton *testButton;
+    IBOutlet UIButton *customTestButton;
+}
 
+@property (nonatomic, retain) IBOutlet UIButton *testButton;
+@property (nonatomic, retain) IBOutlet UIButton *customTestButton;
+
+-(IBAction)touchButton:(id)sender;
 
 @end
 
