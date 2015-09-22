@@ -34,12 +34,13 @@
 -(IBAction)touchButton:(id)sender{
     UIButton *button = (UIButton *)sender;
     int bTag = (int)button.tag;
-    if (bTag == 0) {
+    if (bTag == 1) {
         MMSDetailViewController *detailViewController = [[MMSDetailViewController alloc] initWithNibName:@"MMSDetailViewController" bundle:nil];
         [self presentPopupViewController:detailViewController animationType:0];
 
-    }else{
+    }else if(bTag == 2){
         MMSCustomViewController *detailViewController = [[MMSCustomViewController alloc] initWithNibName:@"MMSCustomViewController" bundle:nil];
+        detailViewController.delegate = self;
         [self presentPopupViewController:detailViewController animationType:0];
 
     }
