@@ -19,4 +19,5 @@
 @protocol MMSCustomViewControllerDelegate<NSObject>
 @optional
 - (void)cancelButtonClicked:(MMSCustomViewController*)secondDetailViewController;
+- (void)tableButtonClicked:(MMSCustomViewController*)secondDetailViewController withId:(int)tabId;
 @end

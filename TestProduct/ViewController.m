@@ -50,4 +50,8 @@
 {
     [self dismissPopupViewControllerWithanimationType:MMSPopupViewAnimationFade];
 }
+
+- (void)tableButtonClicked:(MMSCustomViewController*)secondDetailViewController withId:(int)tabId{
+    NSLog(@"TabId %d",tabId);
+}
 @end
